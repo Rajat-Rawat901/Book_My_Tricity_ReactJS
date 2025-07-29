@@ -1,0 +1,29 @@
+.ribbon-nav {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  overflow-x: auto;
+}
+
+.ribbon-list {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: 10%;
+  padding: 0;
+  gap: 1rem;
+
+}
+
+.ribbon-item {
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.3s;
+}
+
+.ribbon-item:hover {
+  color: #00bcd4;
+}

@@ -1,0 +1,38 @@
+.event-list {
+  padding: 2rem;
+  text-align: center;
+}
+.event-list h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.event-card {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: left;
+}
+.event-card h3 {
+  color: #00bcd4;
+}
+.event-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+.event-card button:hover {
+  background-color: #ff6b81;
+}

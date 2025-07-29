@@ -1,0 +1,104 @@
+.movie-banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0.1)), var(--movie-bg-image, url("/src/assets/saiyaara_poster_bg.jpg")) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 0rem 2rem;
+  color: white;
+  min-height: 450px;
+}
+
+.banner-overlay {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.banner-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.poster img {
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.movie-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.rating-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rating-box .star {
+  color: #f84464;
+  font-size: 1.4rem;
+}
+
+.rating-box .rate-btn {
+  background: #fff;
+  color: #000;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tags {
+  margin-bottom: 0.8rem;
+}
+
+.tag {
+  background-color: #222;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.meta {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.book-btn {
+  background-color: #f84464;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #e33a57;
+}
+
+.about-movie {
+  background: none;
+  color: #000000;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+.about-movie h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.about-movie p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
