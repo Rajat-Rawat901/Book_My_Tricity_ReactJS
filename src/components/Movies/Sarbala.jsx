@@ -9,11 +9,11 @@ export default function Sarbala({ user, onLogout }) {
         <>
         <Navbar user={user} onLogout={onLogout} />
         <RibbonNav />
-     <section className="movie-banner" style={{"--movie-bg-image": "url('/src/assets/sarbala_poster.jpg')"}}>
+     <section className="movie-banner" style={{"--movie-bg-image": "url('/images/sarbala_poster.jpg')"}}>
       <div className="banner-overlay">
         <div className="banner-content">
           <div className="poster">
-            <img src="src\assets\sarbala_poster.jpg" alt="Sarbala Poster" />
+            <img src="/images/sarbala_poster.jpg" alt="Sarbala Poster" />
           </div>
           <div className="movie-info">
             <h1>Sarbala Ji</h1>

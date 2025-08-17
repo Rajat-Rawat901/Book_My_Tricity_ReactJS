@@ -7,10 +7,10 @@ export default function Hero() {
   const intervalRef = useRef(null);
 
   const eventBanners = [
-    { id: 1, image: "/Images/event1.jpg", alt: "Concert" },
-    { id: 2, image: "/Images/event2.jpg", alt: "Halwa Show" },
-    { id: 3, image: "/Images/event3.jpg", alt: "Unlock Comedy" },
-    { id: 4, image: "/Images/event4.jpg", alt: "Music Night" },
+    { id: 1, image: "/images/event1.jpg", alt: "Concert" },
+    { id: 2, image: "/images/event2.jpg", alt: "Halwa Show" },
+    { id: 3, image: "/images/event3.jpg", alt: "Unlock Comedy" },
+    { id: 4, image: "/images/event4.jpg", alt: "Music Night" },
   ];
 
   const scroll = (direction) => {

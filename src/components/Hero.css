@@ -1,6 +1,6 @@
 .hero {
   height: auto;
-  background-image: url('/cover.jpg');
+  background-image: url('/images/cover.jpg');
   background-size: cover;
   background-position: center;
   display: flex;

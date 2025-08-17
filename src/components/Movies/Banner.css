@@ -1,5 +1,5 @@
 .movie-banner {
-  background: linear-gradient(to right, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0.1)), var(--movie-bg-image, url("/src/assets/saiyaara_poster_bg.jpg")) no-repeat center center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0.1)), var(--movie-bg-image, url("/images/saiyaara_poster_bg.jpg")) no-repeat center center;
   background-size: cover;
   position: relative;
   padding: 0rem 2rem;

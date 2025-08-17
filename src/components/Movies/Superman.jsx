@@ -10,11 +10,11 @@ export default function Superman({ user, onLogout }) {
         <>
         <Navbar user={user} onLogout={onLogout} />
         <RibbonNav />
-     <section className="movie-banner" style={{"--movie-bg-image": "url('/src/assets/superman_poster.jpg')"}}>
+     <section className="movie-banner" style={{"--movie-bg-image": "url('/images/superman_poster.jpg')"}}>
       <div className="banner-overlay">
         <div className="banner-content">
           <div className="poster">
-            <img src="src\assets\superman_poster.jpg" alt="Superman Poster" />
+            <img src="/images/superman_poster.jpg" alt="Superman Poster" />
           </div>
           <div className="movie-info">
             <h1>Superman</h1>

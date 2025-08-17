@@ -9,11 +9,11 @@ export default function Saiyaara({ user, onLogout }) {
         <>
         <Navbar user={user} onLogout={onLogout} />
         <RibbonNav />
-     <section className="movie-banner" style={{"--movie-bg-image": "url('/src/assets/saiyaara_poster_bg.jpg')"}}>
+     <section className="movie-banner" style={{"--movie-bg-image": "url('/images/saiyaara_poster_bg.jpg')"}}>
       <div className="banner-overlay">
         <div className="banner-content">
           <div className="poster">
-            <img src="src\assets\saiyaara_poster.jpg" alt="Saiyaara Poster" />
+            <img src="/images/saiyaara_poster.jpg" alt="Saiyaara Poster" />
           </div>
           <div className="movie-info">
             <h1>Saiyaara</h1>

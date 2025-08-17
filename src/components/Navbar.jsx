@@ -54,7 +54,7 @@ export default function Navbar({ searchTerm = "", setSearchTerm = () => {}, user
           onClick={() => (window.location.href = "/")}
           aria-label="Go to home page"
         >
-          <img src="/Images/Book_my_tricity.svg" alt="BookMyTricity" className="logo-img" />
+          <img src="/images/Book_my_tricity.svg" alt="BookMyTricity" className="logo-img" />
         </button>
 
         <div className="center-content">

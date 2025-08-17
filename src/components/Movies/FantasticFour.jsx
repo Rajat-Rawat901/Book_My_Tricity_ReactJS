@@ -10,11 +10,11 @@ export default function FantasticFour({ user, onLogout }) {
         <>
         <Navbar user={user} onLogout={onLogout} />
         <RibbonNav />
-     <section className="movie-banner" style={{"--movie-bg-image": "url('/src/assets/fantastic_poster.jpg')"}}>
+     <section className="movie-banner" style={{"--movie-bg-image": "url('/images/fantastic_poster.jpg')"}}>
       <div className="banner-overlay">
         <div className="banner-content">
           <div className="poster">
-            <img src="src\assets\fantastic_poster.jpg" alt="The Fantastic Four Poster" />
+            <img src="/images/fantastic_poster.jpg" alt="The Fantastic Four Poster" />
           </div>
           <div className="movie-info">
             <h1>The Fantastic Four</h1>
